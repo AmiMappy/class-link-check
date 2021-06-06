@@ -1,10 +1,14 @@
 # Class Link Check for Google Classroom™
 
+![Promo Image](images/promo-small.jpg)
+
 _Does your school use Google Classroom? Are you tired of having to check for the link before the class starts? Do you want to avoid spending your time waiting for class to start?_
 
-Then **this** is the solution to your problems! 
+Then **this** is the solution to your problems!
 
 Class Link Check is an extension for your browser that automatically checks if the meeting link for the class has come. It even opens the class and alerts you to join it!
+
+![Screenshot of the extension](images/ss1.jpg)
 
 ## How to Use:
 
@@ -19,7 +23,10 @@ You can customize it by clicking on the extension. For example, you can decide w
 More features are coming very soon, like automatically choosing which account you want to use for your classes.
 
 Download this extension today and make online classes fun again!
+
+![How to use the extension](images/ss2.jpg)
+
 <hr>
 
-Class Link Check does not collect any personal information. It also does not transmit any data off your computer. 
+Class Link Check does not collect any personal information. It also does not transmit any data off your computer.
 Google Classroom is a trademark of Google Inc. Use of this trademark is subject to Google Brand Permissions.

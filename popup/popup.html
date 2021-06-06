@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="title_and_slogan">
+      <br />
+      <h1>Class Link Check</h1>
+      <h3>Say goodbye to paranoid link-checking.</h3>
+      <br />
+    </div>
+
+    <p id="explainer">
+      This extension automatically checks and opens your class meeting, so that
+      you don't have to check if class has started yourself!
+    </p>
+    <div class="how_to">
+      <br />
+      <h2>How to Use</h2>
+
+      <p>1. Ensure the extension is turned on.</p>
+      <p>2. Open the Google Classroom class page.</p>
+      <p>3. Reload the page once it is done loading.</p>
+      <p style="font-weight: bold">That's it. Enjoy your class!</p>
+      <br />
+    </div>
+
+    <form name="settings_form" id="settings_form">
+      <br />
+      <div hidden="true">
+        <label for="account_no_input">Account Number:</label><br />
+        <input id="account_no_input_id" name="account_no_input" type="number" />
+      </div>
+      <br />
+      <label>How do you want to be notified?</label>
+      <select name="notif_method_input" id="notif_method_input_id">
+        <br />
+        <option value="window_pop">Chrome window pops up</option>
+        <option value="chrome_notif">Chrome Notifications</option>
+        <option value="both">Both of the Above(Default)</option>
+      </select>
+      <br /><br />
+      <input type="submit" value="Save" id="submit_button" />
+      <br /><br />
+    </form>
+    <script src="popup.js"></script>
+  </body>
+</html>
