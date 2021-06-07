@@ -1,5 +1,7 @@
 window.addEventListener('load', () => {
-    chrome.runtime.sendMessage({accountChooserOpened: true}, (response) => { 
-        //console.log(response)
-    });
+    if(document.URL.indexOf("meet.google.com") !== -1){
+        chrome.runtime.sendMessage({accountChooserOpened: true}, (response) => { 
+            //console.log(response)
+        });
+    }
 })
