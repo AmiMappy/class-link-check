@@ -2,5 +2,13 @@
   text-align: center;
 }
 body {
-  background-color: #ebff3c;
+  background-color: yellow;
+}
+#m1 {
+  color: rgb(0, 0, 255);
+  font-family: 'Share Tech Mono', monospace;
+}
+#m2 {
+  color: rgb(73, 103, 128);
+  font-family: 'Share Tech Mono', monospace;
 }
