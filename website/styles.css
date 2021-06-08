@@ -1,14 +1,19 @@
 * {
   text-align: center;
+  color: black;
 }
+
 body {
-  background-color: yellow;
+  background-color: sepia;
 }
+
 #m1 {
-  color: rgb(0, 0, 255);
-  font-family: 'Share Tech Mono', monospace;
+  color: rgb(0, 0, 0);
+  margin-top: 20%;
+  font-family: "Share Tech Mono", monospace;
 }
+
 #m2 {
-  color: rgb(73, 103, 128);
-  font-family: 'Share Tech Mono', monospace;
+  color: rgb(255, 0, 0);
+  font-family: "Share Tech Mono", monospace;
 }
