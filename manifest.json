@@ -3,7 +3,7 @@
 
   "name": "Class Link Check for Google Classroom™",
   "description": "Checks for, opens and alerts the user about the meeting link being in the Google Classroom class.",
-  "version": "0.0.0.1",
+  "version": "0.0.0.2",
   "manifest_version": 3,
   "background": {
     "service_worker": "backgroundScript.js"
