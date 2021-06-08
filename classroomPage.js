@@ -1,7 +1,7 @@
 var meetAddr;
 var meetTabOpened = false;
 setTimeout(() => {    
-  if(document.URL.length <= 47){
+  if(document.URL.slice(-19).indexOf("/c/") !== -1){
     try {
       meetAddr = document.getElementsByClassName("QRiHXd")[7].innerText;
     } catch(err){
