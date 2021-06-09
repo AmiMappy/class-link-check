@@ -12,7 +12,7 @@ Class Link Check is an extension for your browser that automatically checks if t
 
 ## How to Use:
 
-1. Download the extension by clicking on the Add to Chrome button above
+1. Download the extension on our [website](https://arihant25.github.io/class-link-check/)
 
 2. Before your class starts, open the Google Classroom page of your class and refresh it once again.
 
