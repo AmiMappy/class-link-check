@@ -25,12 +25,9 @@ var randomMessageGenerator = setInterval(() => {
   random_message = messages[message_index];
 }, 7000);
 
-/*
-var title_index = Math.floor(Math.random() * titles.length);
-var message_index = Math.floor(Math.random() * messages.length);
-var random_title = titles[title_index];
-var random_message = messages[message_index];
-*/
+chrome.runtime.onInstalled.addListener((reason) => {
+  chrome.tabs.create({url: chrome.runtime.getURL("./installation/install.html")}, (tab) => { ; });
+});
 
 function classNotification() {
   chrome.notifications.create({
