@@ -40,5 +40,5 @@
       "js": ["accountChooserPage.js"]
     }
   ],
-  "permissions": ["tabs", "notifications"]
+  "permissions": ["notifications"]
 }
