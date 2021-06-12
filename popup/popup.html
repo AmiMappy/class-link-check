@@ -1,47 +1,60 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Raleway Font -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <!-- W3.css -->
+    <link rel="stylesheet" href="./w3.css" />
+    <!-- Local Stylesheet -->
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="title_and_slogan">
       <br />
-      <h1>Class Link Check</h1>
-      <h3>Say goodbye to obsessive link-checking.</h3>
-      <br />
+      <h1 class="w3-animate-zoom">Class Link Check</h1>
+      <h3>Say goodbye to obsessive link-checking</h3>
     </div>
 
-    <p id="explainer">
-      This extension automatically checks and opens your class meeting, so that
-      you don't have to check if class has started yourself!
-    </p>
     <div class="how_to">
-      <br />
       <h2>How to Use</h2>
 
-      <p>1. Ensure the extension is turned on.</p>
-      <p>2. Open the Google Classroom class page.</p>
-      <p>3. Reload the page once it is done loading.</p>
-      <p style="font-weight: bold">That's it. Enjoy your class!</p>
-      <br />
+      <p>
+        1. Open the Google Classroom class page.<br />
+        2. Refresh the page once it's done loading.<br />
+        3. Sit back and relax!
+      </p>
+
+      <p>We will notify you when your class starts.</p>
     </div>
 
     <form name="settings_form" id="settings_form">
-      <br />
       <div hidden="true">
         <label for="account_no_input">Account Number:</label><br />
         <input id="account_no_input_id" name="account_no_input" type="number" />
       </div>
-      <br />
-      <label>How do you want to be notified?</label>
-      <select name="notif_method_input" id="notif_method_input_id">
-        <br />
-        <option value="window_pop">Chrome window pops up</option>
-        <option value="chrome_notif">Chrome Notifications</option>
-        <option value="both">Both of the Above(Default)</option>
+      <label id="q1">How do you want to be notified?</label>
+
+      <select
+        name="notif_method_input"
+        id="notif_method_input_id"
+        class="w3-round-xxlarge w3-padding-small"
+      >
+        <option value="chrome_notif">Get a notification</option>
+        <option value="window_pop">Pop up class window</option>
+        <option value="both">Both of the Above</option>
       </select>
-      <br /><br />
-      <input type="submit" value="Save" id="submit_button" />
-      <br /><br />
+
+      <input
+        type="submit"
+        value="Save"
+        id="submit_button"
+        class="w3-button w3-round-xxlarge w3-white w3-ripple"
+      />
+      <br />
+      <label id="default">(The default behaviour is both of the above)</label>
     </form>
     <script src="popup.js"></script>
   </body>

@@ -2,56 +2,54 @@
 
 html {
   min-width: 350px;
+  background-color: #142234;
+  max-height: 600px;
 }
 
 * {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
+  color: white;
 }
 
 h1 {
-  font-weight: 900;
-  font-size: xx-large;
-  color: white;
+  font-size: 43px;
 }
 
 h2 {
+  font-size: 35px;
   font-weight: 400;
-  color: white;
 }
 
 h3 {
   font-style: italic;
-  font-weight: 700;
-  font-size: large;
-  color: white;
+  font-size: medium;
 }
 
 p {
   font-weight: 400;
-  font-size: small;
-  color: white;
-}
-
-label {
-  color: white;
-}
-
-#explainer {
-  color: black;
-}
-
-.title_and_slogan {
-  background-color: #7fd256;
-  color: blue;
-}
-
-.how_to {
-  background-color: #609f41;
-  color: darkslateblue;
+  font-size: 15px;
+  padding: 0 15px;
 }
 
 #settings_form {
-  background-color: #609f41;
-  color: darkslateblue;
+  margin-top: 20px;
+}
+
+#q1 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+select {
+  color: black;
+  margin: 10px 0 15px 0;
+}
+
+option {
+  color: black;
+}
+
+input {
+  font-size: 13px;
 }
