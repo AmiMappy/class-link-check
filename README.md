@@ -26,6 +26,8 @@ Download this extension today and make online classes fun again!
 
 ![How to use the extension](images/ss2.jpg)
 
+I know online classes are harder then they have to be. By creating this extension, I hope I'd be able to relieve some of your stress in these trying times. If this extension helped you, consider donating to ensure its continued development. 95% of donations will be given to charities. <br>[Click here](https://www.buymeacoffee.com/arihanttr) to donate.
+
 <hr>
 
 Class Link Check does not collect any personal information. It also does not transmit any data off your computer.
