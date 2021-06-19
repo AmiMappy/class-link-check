@@ -24,7 +24,8 @@
     {
       "matches": [
         "https://meet.google.com/_meet/*",
-        "https://meet.google.com/lookup/*"
+        "https://meet.google.com/lookup/*",
+        "https://meet.google.com/*"
       ],
       "js": ["meetingPage.js"]
     },
