@@ -1,9 +1,8 @@
 {
   "update_url": "https://clients2.google.com/service/update2/crx",
-
   "name": "Class Link Check for Google Classroom™",
   "description": "Checks for, opens and alerts the user about the meeting link being in the Google Classroom class.",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 3,
   "background": {
     "service_worker": "backgroundScript.js"
@@ -27,19 +26,29 @@
         "https://meet.google.com/lookup/*",
         "https://meet.google.com/*"
       ],
-      "js": ["meetingPage.js"]
+      "js": [
+        "meetingPage.js"
+      ]
     },
     {
       "matches": [
         "https://classroom.google.com/u/*/c/*",
         "https://classroom.google.com/c/*"
       ],
-      "js": ["classroomPage.js"]
+      "js": [
+        "classroomPage.js"
+      ]
     },
     {
-      "matches": ["https://accounts.google.com/AccountChooser/*"],
-      "js": ["accountChooserPage.js"]
+      "matches": [
+        "https://accounts.google.com/AccountChooser/*"
+      ],
+      "js": [
+        "accountChooserPage.js"
+      ]
     }
   ],
-  "permissions": ["notifications"]
+  "permissions": [
+    "notifications"
+  ]
 }
